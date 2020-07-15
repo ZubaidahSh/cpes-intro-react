@@ -1,0 +1,9 @@
+1. Div
+2. CSS external
+3. Classes
+4: text-align
+5: CSS tag تعدل عالتاق من غير كلاس
+6: width, height, background-color, color, border-radius, font-size
+7: :hover
+8: a:   visted,link,hover
+9: padding and margin
