@@ -21,19 +21,24 @@ body{
 
 .card{
    background-color: #e5e5e5; 
-   height:200px;
+   height:230px;
    width:200px;
    border-radius: 4px;
    font-size: 12px;
-   display:flex;
-   justify-content: center;
-   align-items: center;
 
    /* يخلي العنصر على شكل دائري */
    /* لا تنسى تخلي الطول و العرض نفس الشي */
-   border-radius: 50%;
+   border-radius: 12px;
    /* يخلي اي شي داخل هالعنصر اذا طلع بره يختفي */
    overflow: hidden;
+}
+
+.card img,.card a{
+    opacity:0;
+}
+
+.card:hover *{
+    opacity: 1;
 }
 
 .card img{
@@ -41,17 +46,11 @@ body{
     width:200px;
 }
 
-.card a{
-    opacity: 1;
-}
 
 .card:hover{
     border: 4px solid darkslateblue;
 }
 
-.card:hover a{
-    opacity: 1;
-}
 
 .card-container{
     
